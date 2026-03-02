@@ -3,7 +3,7 @@ package lista_exercicios_26_02_to_05_03;
 import java.util.Scanner;
 
 public class Ex1 {
-    public static void main() {
+    public static void main(String [] args) {
         /*
         * Leia 3 notas (0 a 10). Se alguma nota for inválida, solicite novamente. Mostre média e
         situação (Aprovado ≥ 6).
