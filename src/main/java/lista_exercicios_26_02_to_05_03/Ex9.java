@@ -5,6 +5,12 @@ import java.util.Scanner;
 
 public class Ex9 {
     public static void main(String[] args) {
+        // 9) Mini-CRUD de tarefas (arrays paralelos)
+        //Crie arrays id/descricao/concluida. Menu: adicionar, listar, concluir, remover. Não permita
+        //vender/remover id inexistente.
+        //Dica: Prepara para encapsulamento e estado válido; validações.
+
+
         ArrayList<Integer> id = new ArrayList<>();
         ArrayList<String>descricao = new ArrayList<>();
         ArrayList<Boolean>concluida = new ArrayList<>();

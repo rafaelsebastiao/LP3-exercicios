@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class Ex8 {
     public static void main(String[] args) {
+        // 8) Matriz 3x3 (somas)
+        //Leia matriz 3x3. Imprima soma de cada linha, soma de cada coluna e soma da diagonal
+        //principal.
+        //Dica: Dois laços; cuidado com índices; diagonal i==j
+
         Scanner sc = new Scanner(System.in);
         int [][] matriz = new int[3][3];
 

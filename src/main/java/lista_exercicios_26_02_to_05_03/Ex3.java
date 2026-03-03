@@ -1,13 +1,14 @@
 package lista_exercicios_26_02_to_05_03;
 
-//3) Tabuada formatada
-//Leia x (1 a 100) e imprima tabuada de 1 a 10 no formato: x * i = resultado.
-//Dica: Valide x; use for de 1..10; formate saída.
 
 import java.util.Scanner;
 
 public class Ex3 {
     public static void main(String [] args) {
+        // 3) Tabuada formatada
+        //Leia x (1 a 100) e imprima tabuada de 1 a 10 no formato: x * i = resultado.
+        //Dica: Valide x; use for de 1..10; formate saída.
+
         Scanner sc = new Scanner(System.in);
         int x;
 

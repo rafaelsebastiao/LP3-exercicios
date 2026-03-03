@@ -3,11 +3,10 @@ package lista_exercicios_26_02_to_05_03;
 import java.util.Scanner;
 
 public class Ex4 {
-    //4) Vetor: maior, menor, média e índice
-    //Leia 10 inteiros em um array. Mostre maior, menor, média e o índice do maior.
-    //Dica: Percorra uma vez; guarde maior/menor e posição; some para média.
-
     public static void main(String[] args) {
+        // 4) Vetor: maior, menor, média e índice
+        //Leia 10 inteiros em um array. Mostre maior, menor, média e o índice do maior.
+        //Dica: Percorra uma vez; guarde maior/menor e posição; some para média.
         Scanner sc = new Scanner(System.in);
 
         int[] vetor = new int[10];
